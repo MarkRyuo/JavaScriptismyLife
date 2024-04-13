@@ -5,14 +5,14 @@ const Container = () => {
     const container = document.getElementById("container").innerHTML = `<input type="text" id="username"> <br> <br> <button type="button" onclick="btndone()">Done</button>
     ` ;
 
+    btn_show(container)
 }
 
-let container_show = Container() ;
 
 //btnShow
 
-const btn_show = () => {
-
+const btn_show = (container) => {
+    
 }
 
 // Obj 
