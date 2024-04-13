@@ -1,13 +1,17 @@
 // Container 
 
 
-
-// Design for div container
-const Container = () => {
+const btn_show = () => {
     const container = document.getElementById("container").innerHTML = `<input type="text" id="username"> <br> <br> <button type="button" onclick="btndone()">Done</button>
     ` ;
-    return container
 }
+
+// Design for div container
+// const Container = () => {
+//     const container = document.getElementById("container").innerHTML = `<input type="text" id="username"> <br> <br> <button type="button" onclick="btndone()">Done</button>
+//     ` ;
+//     return container
+// }
 
 
 
@@ -24,9 +28,7 @@ const btndone = () => {
 
     if(username == user.username){
         alert(`Hello: ${user.username}`)
-    }
-
-    
+    }   
 }
 
 
