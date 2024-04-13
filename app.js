@@ -1,7 +1,7 @@
 // Container 
 
 const Container = () => {
-    const container = document.getElementById("container").innerHTML = `<input type="text"> <br> <br> <button type="button" onclick="btndone">Done</button>
+    const container = document.getElementById("container").innerHTML = `<input type="text" id="username"> <br> <br> <button type="button" onclick="btndone">Done</button>
     ` ;
 
 }
@@ -13,3 +13,4 @@ user = {
     password : "imryuo",
     age : 21
 }
+
