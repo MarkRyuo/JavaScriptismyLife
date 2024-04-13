@@ -17,7 +17,7 @@ const btn_show = () => {
 
 // Obj 
 user = {
-    username : "Ryuo",
+    username : "Mark",
     password : "imryuo",
     age : 21
 }
@@ -29,7 +29,7 @@ const btndone = () => {
         alert(`Hello: ${user.username}`)
     } 
     else
-        alert(`${username} is not data`)
+        alert(`${username} is not in the data`)
 }
 
 
