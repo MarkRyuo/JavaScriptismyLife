@@ -7,12 +7,12 @@ const Container = () => {
 
 }
 
-Container()
+let container_show = Container() ;
 
 //btnShow
 
 const btn_show = () => {
-    
+
 }
 
 // Obj 
