@@ -24,11 +24,12 @@ user = {
 
 // Button Done Fuctionality 
 const btndone = () => {
-    const username = document.getElementById("username").value ;
-
-    if(username == user.username){
-        alert(`Hello: ${user.username}`)
-    }   
+    const username = document.getElementById("username").value ; 
+    return username ;
 }
+
+if(username == user.username){
+    alert(`Hello: ${user.username}`)
+}  
 
 
