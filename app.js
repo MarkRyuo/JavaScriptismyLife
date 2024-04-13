@@ -25,13 +25,9 @@ user = {
 // Button Done Fuctionality 
 const btndone = () => {
     const username = document.getElementById("username").value ; 
-    return username ;
+    if(done == user.username){
+        alert(`Hello: ${user.username}`)
+    }  
 }
-
-let user_name = btndone() ;
-
-if(user_name == user.username){
-    alert(`Hello: ${user.username}`)
-}  
 
 
