@@ -28,7 +28,9 @@ const btndone = () => {
     return username ;
 }
 
-if(username == user.username){
+let user_name = btndone() ;
+
+if(user_name == user.username){
     alert(`Hello: ${user.username}`)
 }  
 
