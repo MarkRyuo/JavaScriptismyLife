@@ -9,6 +9,12 @@ const Container = () => {
 
 Container()
 
+//btnShow
+
+const btn_show = () => {
+    
+}
+
 // Obj 
 user = {
     username : "Ryuo",
