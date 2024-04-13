@@ -21,7 +21,7 @@ if(username == user.username) {
 }
 
 const Button_Done = () => {
-    
+    const username = document.getElementById("username").value ;
 }
 
 
