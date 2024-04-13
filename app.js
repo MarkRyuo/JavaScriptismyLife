@@ -19,7 +19,7 @@ const btndone = () => {
     const username = document.getElementById("username").value ;
 
     if(username == user.username){
-        alert("Lol")
+        alert(`Hello: ${user.username}`)
     }
 
     
