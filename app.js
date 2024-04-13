@@ -1,5 +1,7 @@
 // Container 
 
 const Container = () => {
-    const container = document.getElementById("conatiner").innerHTML = `<input type="text">`
+    const container = document.getElementById("container").innerHTML = `<input type="text"> <br> ` ;
 }
+
+Container()
