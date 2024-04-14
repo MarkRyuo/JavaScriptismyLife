@@ -6,14 +6,6 @@ const btn_show = () => {
     ` ;
 }
 
-// Design for div container
-// const Container = () => {
-//     const container = document.getElementById("container").innerHTML = `<input type="text" id="username"> <br> <br> <button type="button" onclick="btndone()">Done</button>
-//     ` ;
-//     return container
-// }
-
-
 
 // Obj 
 user = {
