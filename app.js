@@ -2,7 +2,9 @@
 
 
 const btn_show = () => {
-    const container = document.getElementById("container").innerHTML = `<input type="text" id="username"> <br> <br> <button type="button" onclick="btndone()">Done</button>
+    const container = document.getElementById("container").innerHTML = `<input type="text" id="username"> <br>
+    <br> <input type="password" id="password">
+    <br> <button type="button" onclick="btndone()">Done</button>
     ` ;
 }
 
